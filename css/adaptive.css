@@ -33,3 +33,26 @@
         display: none;
     }
 }
+@media screen and (max-width:767px) {
+    .main .container{
+        grid-template-columns: 1fr;
+    }
+    .main-image{
+        grid-column: unset;
+        grid-row: unset;
+        order: 2;
+        margin-bottom: 41px;
+    }
+    .main h1{
+        order:1;
+    }
+    .main-info-text{
+        order: 3;
+    }
+    .main-info-description{
+        order: 4;
+    }
+    .main-actions{
+        order: 5;
+    }
+}
