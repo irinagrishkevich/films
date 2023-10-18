@@ -190,3 +190,6 @@ body{
 .header-search:hover{
     opacity: 0.5;
 }
+.burger{
+    display: none;
+}
